@@ -19,6 +19,10 @@
 
 <?php endforeach; ?>
 
+
+
+
+
 </tbody>
 </table>
 

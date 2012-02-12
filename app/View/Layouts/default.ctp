@@ -39,6 +39,14 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->Html->css('text');
 		echo $this->Html->css('layout');
 		
+		
+		echo $this->Html->script('jquery/jquery-1.7.1.js');
+				
+		echo $this->Html->script('jquery-ui\js\jquery-ui-1.8.17.custom.min.js');
+		
+		echo $this->Html->script('raesphp.general.js');
+			
+		
 		echo $scripts_for_layout;
 	?>
 </head>
